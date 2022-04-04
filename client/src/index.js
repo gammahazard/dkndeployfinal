@@ -61,8 +61,8 @@ export default function ProductInfo () {
 
 ReactDOM.render(
   <Auth0Provider
-    domain="dev-xnlw15h5.us.auth0.com"
-    clientId="ljAacqxUfHFmCdK9jjRJCr6TMlMqGlkK"
+    domain="twilight-dawn-2200.us.auth0.com"
+    clientId="Rlx64aDi7u5js3WI3dgCSn3HO4a5zojh"
     redirectUri="https://dkn-store-final.herokuapp.com/dashboard"
   >
     <ApolloProvider client={client} >
