@@ -63,7 +63,7 @@ ReactDOM.render(
   <Auth0Provider
     domain="twilight-dawn-2200.us.auth0.com"
     clientId="Rlx64aDi7u5js3WI3dgCSn3HO4a5zojh"
-    redirectUri="https://dkn-store-final.herokuapp.com/dashboard"
+    redirectUri={window.location.origin}
   >
     <ApolloProvider client={client} >
     <App />
